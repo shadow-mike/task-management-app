@@ -1,0 +1,15 @@
+@import "../../../styles/colors";
+
+.adder {
+  input {
+    padding: 2px 5px;
+    border: none;
+    outline-color: transparent;
+    border-bottom: 2px solid $g-color-lightgrey;
+    &:focus {
+      border: none;
+      outline-color: transparent;
+      border-bottom: 2px solid $g-color-grey;
+    }
+  }
+}

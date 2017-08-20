@@ -1,0 +1,12 @@
+<div class="todo-page">
+  <div class="todo-header">
+    <tma-adder (onAdded)="addItem($event)"></tma-adder>
+    <div>
+      <span>TOTAL</span>
+      <tma-counter [total]="todoService.getTotal()"></tma-counter>
+    </div>
+  </div>
+  <div class="lists-container">
+    <tma-task-list *ngFor="let td of todoService.getTaskData()" [taskStatus]="td"></tma-task-list>
+  </div>
+</div>

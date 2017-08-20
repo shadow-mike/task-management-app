@@ -4,8 +4,17 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    children: []
-  }
+    redirectTo: '/todo',
+    pathMatch: 'full'
+  },
+  {
+    path: 'todo',
+    loadChildren: 'app/todo/todo.module#TodoModule'
+  },
+  // { 404
+  //   path: '**',
+  //   component: 'app/todo/todo.module#TodoModule'
+  // },
 ];
 
 @NgModule({

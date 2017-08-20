@@ -1,0 +1,45 @@
+@import "../../../styles/colors";
+
+.task-list {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  .task-header {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $g-color-grey;
+    >* {
+      margin: 0 10px;
+    }
+    span {
+      color: $g-color-white;
+      font-weight: bold;
+    }
+  }
+  .item-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: -webkit-grab;
+    div {
+      width: 100%;
+    }
+    div.item {
+      box-sizing: border-box;
+      padding: 5px 5px;
+      background-color: $g-color-white;
+      box-shadow: 2px 2px 2px $g-color-lightgrey;
+      &:hover {
+        background-color: $g-color-lightgrey;
+      }
+    }
+  }
+}

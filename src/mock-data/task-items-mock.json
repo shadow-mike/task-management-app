@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "name": "To do",
+      "items": [
+        {
+          "id": "1",
+          "summary": "Project 1"
+        },
+        {
+          "id": "2",
+          "summary": "Project 2"
+        },
+        {
+          "id": "3",
+          "summary": "Project 3"
+        },
+        {
+          "id": "4",
+          "summary": "Project 4"
+        }
+      ]
+    },
+    {
+      "name": "In Progress",
+      "items": [
+        {
+          "id": "5",
+          "summary": "Project 5"
+        },
+        {
+          "id": "6",
+          "summary": "Project 6"
+        },
+        {
+          "id": "7",
+          "summary": "Project 7"
+        }
+      ]
+    },
+    {
+      "name": "Done",
+      "items": [
+        {
+          "id": "8",
+          "summary": "Project 8"
+        },
+        {
+          "id": "9",
+          "summary": "Project 9"
+        },
+        {
+          "id": "10",
+          "summary": "Project 10"
+        },
+        {
+          "id": "11",
+          "summary": "Project 11"
+        },
+        {
+          "id": "12",
+          "summary": "Project 12"
+        }
+      ]
+    }
+  ]
+}

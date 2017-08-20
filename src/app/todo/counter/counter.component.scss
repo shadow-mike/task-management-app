@@ -1,0 +1,19 @@
+@import "../../../styles/colors";
+
+.conunter-container {
+  width: 80px;
+  height: 50px;
+  font-size: 0.8em;
+  background-color: $g-color-lightgrey;
+  box-shadow: 2px 2px 2px $g-color-grey inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  span:first-child {
+    font-weight: bold;
+  }
+  span+span {
+    color: $g-color-grey;
+  }
+}

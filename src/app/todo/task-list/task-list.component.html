@@ -1,0 +1,13 @@
+<div class="task-list">
+  <div class="task-header">
+    <span>{{taskStatus.name}}</span>
+    <tma-counter [total]="taskStatus.items.length"></tma-counter>
+  </div>
+  <div class="item-list"
+    [dragula]='"first-bag"'
+    [dragulaModel]='taskStatus.items'>
+    <div *ngFor="let item of taskStatus.items">
+      <div class="item" [innerHtml]="item.summary"></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.todo-page {
+  padding: 10px;
+  .todo-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    >div {
+      text-align: center;
+    }
+  }
+  .lists-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
